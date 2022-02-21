@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    registry = "Nobibi/cs204"
+    registry = "nobibi/cs204"
     registryCredential = 'dockerhub'
     dockerImage = ''
   }
@@ -83,4 +83,9 @@ pipeline {
               body: "Something is wrong with ${env.BUILD_URL}"
           }
       }
+
+
 }
+
+
+
