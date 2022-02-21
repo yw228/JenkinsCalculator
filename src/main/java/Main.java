@@ -7,7 +7,7 @@ public class Main {
 
   public static void main(String[] args)
   {
-    System.out.println("Welcome to xX_Uncle_D3w's_Xx calculator");
+    System.out.println("Welcome to Jenkins calculator");
 
     System.out.println("Enter a command:");
 
@@ -33,7 +33,7 @@ public class Main {
         int a = in.nextInt();
         int b = in.nextInt();
         System.out.println(calculator.divide(a, b));
-      } else if (func.equals("fibonacciNumberFinder")) {
+      } else if (func.equals("fibonacci")) {
         int a = in.nextInt();
         System.out.println(calculator.fibonacciNumberFinder(a));
       } else if (func.equals("intToBinary")) {
